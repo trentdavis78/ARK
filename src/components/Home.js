@@ -37,7 +37,7 @@ const Home = ({ inputValue, invalidCode, setInputValue, setInvalidCode, checkCod
                         type="submit"
                        
                     >
-                        Take Me To My Lore
+                        Show me the Lore
                     </Button>
                 </div>
                 </Form>

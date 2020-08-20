@@ -1,7 +1,8 @@
  
   .home-container{    
     width:100%;
-    height: 75vh;    
+    position: relative;
+    top: 35%;
     display:flex;
     justify-content:center;
     align-items:center;
@@ -10,7 +11,7 @@
   
   
   .form-container {
-      background-color: #fefefe;
+      background-color: #131313;
       box-shadow: 5px 5px 10px #282828;
       width: 400px;
       height: 260px;
@@ -21,6 +22,32 @@
   .error-container {
       height: 50px;
   }
-  .button-container {
 
+  .form-container label.form-label {
+      color: #9acd32;
+  }
+  .form-container small {
+    font-size: 70%;
+  }
+
+
+  .btn-dark  {
+  border: none !important;
+  background-color: #212123 !important;
+  font-family: "ark";
+  font-size: 16px;
+  text-transform: uppercase;
+  transition: .5s !important;
+  }
+
+  .btn-dark:hover {
+    background-color:teal !important;
+    border-color:teal !important;
+  }
+
+  @media only screen and (max-width: 960px) {
+    .home-container {
+      position: relative;
+      top: 11%;
+    }
   }

@@ -12,6 +12,7 @@ import Home from './components/Home';
 import FAQ from './components/FAQ';
 import './App.css';
 import ProtectedInfo from './components/ProtectedInfo';
+import img from './images/bg-2.webp';
 
 
 
@@ -71,6 +72,9 @@ export default function App() {
             <FAQ />
           </Route>
         </Switch>
+      <div className="main">
+        <img alt="bg" src={img} width="100%" />
+      </div>
       </div>
     </Router>
   );
