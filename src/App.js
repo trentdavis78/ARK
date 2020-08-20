@@ -50,7 +50,7 @@ export default function App() {
       <div className="app-container">
         <Navbar bg="dark" variant="dark">
           <Navbar.Brand href="#home">
-            ARK Code Redeemer
+            ARK Lore Revealer
                     </Navbar.Brand>
           <Nav className="mr-auto">
             <Nav.Link href="/">Home</Nav.Link>

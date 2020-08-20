@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Info() {
     return (
-        <div className="container protected-container">
+        <div className="container faq-container">
             <h2>FAQ</h2>
             <hr/>
             <h4>Where do I find the QR Code?</h4>

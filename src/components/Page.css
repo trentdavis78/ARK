@@ -1,4 +1,4 @@
-.protected-container, .faq-container {
+.protected-container {
     background-color: #131313;
     width: 95%;
     margin-top:22%;
@@ -6,6 +6,15 @@
     box-shadow: 5px 5px 10px #282828;
     padding: 20px;
     
+}
+.faq-container {
+    margin-top: 14%;
+    background-color: #131313;
+    width: 95%;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px #282828;
+    padding: 20px;
+    min-height: 800px;
 }
 
 .protected-container img,
