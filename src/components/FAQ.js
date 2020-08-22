@@ -4,9 +4,9 @@ export default function Info() {
     return (
         <div className="container faq-container">
             <h2>FAQ</h2>
-            <hr/>
-            <h4>Where do I find the QR Code?</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi quam odio, viverra a blandit eget, sodales ut arcu. Proin tempus elit et facilisis ullamcorper. Pellentesque at nisi ut odio placerat euismod nec in metus. Maecenas vulputate, erat id ornare mattis, erat augue porttitor ipsum, sed maximus arcu nisi condimentum velit.</p>
+            <hr />
+            <h4>Where do I find the QR Codes?</h4>
+            <p>QR Codes can be found painted on canvases around the map, given by the High Mages of the Mage Guild, and rarely as a reward in random loot drops (tentatively pending). If you have any questions or issues, reach out to Admins ZuesinEyebirght or Demon King</p>
         </div>
     )
 }

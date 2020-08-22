@@ -20,7 +20,7 @@ const Home = ({ inputValue, invalidCode, setInputValue, setInvalidCode, checkCod
                         onFocus={() => setInvalidCode(false)}
                     />
                     <Form.Text className="text-muted">
-                        Codes are received from ARK: Survival Evolved master, Thad
+                    Codes can be found by Scholars throughout the world of JourneyRP
                     </Form.Text>
                 </Form.Group>
                 
